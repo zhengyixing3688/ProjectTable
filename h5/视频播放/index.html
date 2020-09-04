@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>视频播放器</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/awesome/css/font-awesome.css">
+</head>
+<body>
+
+    <div class="p_wrapper">
+        <header class="p_header">
+            <h3>视频播放器</h3>
+        </header>
+        <section class="p_section clearfix">
+            <!-- 视频播放区 -->
+            <main class="p_main">
+                <video id="video"   class="video_box" src="video/000wefFxlx07Abpv5X1e010412007OMd0E010.mp4"></video>
+            </main>
+            <aside class="p_list">
+                <h4>视频列表</h4>
+                <ul>
+                    <!-- <li>啦啦啦啦</li>
+                    <li>啦啦啦啦</li>
+                    <li>啦啦啦啦</li> -->
+                </ul>
+            </aside>
+        </section>
+        <footer class="p_footer">
+            <div class="p_footer_left">
+                <div class="btn_box">
+                    <span id="play" class="fa fa-play show"></span>
+                    <span id="pause" class="fa fa-pause "></span>
+                </div>
+                <div class="progress_box">
+                    <div class="up">
+                        <span id="current">00:00:00</span>/ <span id="total">00:00:00</span>
+                    </div>
+                    <div class="down">
+                        <div id="progress" class="progress">
+                            <div id="bar" class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other">
+                    <span id="fullpage" class="fa fa-expand"></span>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
